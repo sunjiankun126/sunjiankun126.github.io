@@ -1,32 +1,47 @@
-# Permalinks
-permalink:           pretty
+permalink: /:year/:month/:day/:title.html
+paginate: 10
+markdown: redcarpet
 
-# Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
-paginate:            1
-baseurl:             ""
+# 作者信息
+author: 
+  name: Anya Lin
+  email: lay.1010@hotmail.com
+  link: http://painterlin.com
+  weibo: http://weibo.com/orangeissweet
+  github: http://github.com/lay1010
+  music: http://site.douban.com/linanya
+  linkedin: https://www.linkedin.com/pub/anya-lin/81/91/232
 
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:          _sass
-  style:            :compressed
+# 站点信息
+title: 林安亚的博客
+description: My personal blog
+url: http://painterlin.com
+rss_url: /pages/atom.xml
 
-# About/contact
-author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+# gavatar头像及Favicon
+gavatar: /public/img/deer3.png
+favicon: /public/img/deer3.png
 
-# Custom vars
-version:             2.0.0
-github:
-  repo:              https://github.com/poole/poole
+# google analytics 设置
+ga:
+  id: UA-54262064-1 
+  url: painterlin.com
 
-# Gems
-gems:
-  - jekyll-paginate
-  - jekyll-gist
+# disqus 设置
+disqus:
+  shortname: painterlin
+
+# 主题设置，自动激活某个标签
+active: 读书
+
+# 首页除了最新文章外显示分类
+cates: 
+  - Optimization
+  - LaTeX
+
+# 中文本地化
+locals:
+  tags: 标签
+  about: 关于
+  newest: 最新文章
+  archive: 归档
